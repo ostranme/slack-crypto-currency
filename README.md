@@ -5,15 +5,15 @@ Crypto Nick is a Slack app that uses the [Coinbase API](https://developers.coinb
 ![ngrok](.assets/crypto.gif)
 
 ### Commands
-- `/crypto buy` - Get the total price to buy each currency.
-- `/crypto sell` - Get the total price to sell each currency.
-- `/crypto spot` - Get the current market price for bitcoin.
+- `/crypto buy` - :chart_with_downwards_trend: Get the total price to buy each currency.
+- `/crypto sell` - :chart_with_upwards_trend: Get the total price to sell each currency.
+- `/crypto spot` - :bar_chart: Get the current market price for bitcoin.
 
 ### Getting Started Locally
 
 Install NPM dependencies
-```bash
-$ npm Install
+```
+$ npm install
 ```
 
 Rename `.env-example` to `.env` and update the variables to use your Coinbase API key and secret credentials.
@@ -21,7 +21,7 @@ Rename `.env-example` to `.env` and update the variables to use your Coinbase AP
 > Don't have an API Key? Getting started here - https://www.coinbase.com/settings/api
 
 Run Node app
-```bash
+```
 $ node index.js
 ```
 
@@ -37,7 +37,7 @@ For the URL, I am using a temporary URL from `ngrok`, which serves my localhost 
 
 If you wish to use ngrok for your development too, download ngrok from https://ngrok.com, run it on terminal:
 
-```bash
+```
 $ ngrok http 3000
 ```
 
@@ -45,9 +45,9 @@ $ ngrok http 3000
 
 Now you’ve got a ngrok URLs for your local server. In this case, copy this URL, https://c17f617d.ngrok.io and paste it into the configuration setup.
 
-2. Now, run the node code, then test your command on Slack client
+Now, run the node code, then test your command on Slack client
 
-```bash
+```
 $ node index.js
 ```
 
