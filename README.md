@@ -29,6 +29,8 @@ $ node index.js
 
 Start by adding a custom integration for a new slash command. In my case, I entered  /crypto and hit the Add Slash Command Integration button to go to the next page.
 
+![slash command settings](.assets/slash-command-settings.png)
+
 You can skip most of the fields for now, but you must enter the (1) Command, (2) URL, and make sure the (3) Method is POST.
 
 For the URL, I am using a temporary URL from `ngrok`, which serves my localhost to a public URL.
