@@ -4,10 +4,10 @@ Crypto Nick is a Slack app that uses the [Coinbase API](https://developers.coinb
 
 ![ngrok](.assets/crypto.gif)
 
-### Commands
-- :chart_with_downwards_trend: `/crypto buy` - Get the total price to buy each currency.
-- :chart_with_upwards_trend: `/crypto sell` - Get the total price to sell each currency.
-- :bar_chart: `/crypto spot` - Get the current market price for bitcoin.
+### Commands :bar_chart:
+- `/crypto buy` - Get the total price to buy each currency.
+- `/crypto sell` - Get the total price to sell each currency.
+- `/crypto spot` - Get the current market price for bitcoin.
 
 ### Getting Started Locally
 
