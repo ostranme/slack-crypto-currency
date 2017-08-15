@@ -4,10 +4,15 @@ Crypto Nick is a Slack app that uses the [Coinbase API](https://developers.coinb
 
 ![ngrok](.assets/crypto.gif)
 
-### Commands :bar_chart:
+### Commands
 - `/crypto buy` - Get the total price to buy each currency.
 - `/crypto sell` - Get the total price to sell each currency.
 - `/crypto spot` - Get the current market price for bitcoin.
+
+### Install CryptoNick on Slack
+Authenticate from this button
+
+<a href="https://slack.com/oauth/authorize?scope=commands+team%3Aread&client_id=4912920482.226577161524"><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
 
 ### Getting Started Locally
 
@@ -52,6 +57,12 @@ Now, run the node code, then test your command on Slack client
 ```
 $ node index.js
 ```
+### Donate/Support
+Show your love for cryptocurrency. Donations to the project are always welcomed :)
+
+<img src="http://i.imgur.com/l5BhL2h.png">
+
+**BTC Wallet Address:** `1LE3fKWMtmk7mhCg8pz2Z1inEmanh4vAUM`
 
 ### Helpful links
 - Coinbase API - https://developers.coinbase.com/api/v2
