@@ -12,7 +12,7 @@ CryptoNick is a Slack app that uses the [Coinbase API](https://developers.coinba
 ### Install CryptoNick on Slack
 Authenticate from this button
 
-<a href="https://slack.com/oauth/authorize?scope=commands+team%3Aread&client_id=4912920482.226577161524"><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
+<a href="https://slack.com/oauth/authorize?scope=commands+team%3Aread&client_id=227702174887.226796309953"><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
 
 ### Getting Started Locally
 
