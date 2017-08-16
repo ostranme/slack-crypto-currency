@@ -1,6 +1,6 @@
 # Crypto Currency for Slack
 
-Crypto Nick is a Slack app that uses the [Coinbase API](https://developers.coinbase.com/api/v2) to look up crypto currency information.
+CryptoNick is a Slack app that uses the [Coinbase API](https://developers.coinbase.com/api/v2) to look up crypto currency information.
 
 ![ngrok](.assets/crypto.gif)
 

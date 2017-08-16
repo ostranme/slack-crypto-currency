@@ -89,17 +89,17 @@ app.post('/command', (req, res) => {
         {
             "title": "/crypto buy",
             "text": "Get the total price to buy each currency.",
-            "color": "#F35A00"
+            "color": "#58416f"
         },
         {
             "title": "/crypto sell",
             "text": "Get the total price to sell each currency.",
-            "color": "#F35A00"
+            "color": "#58416f"
         },
         {
             "title": "/crypto spot",
             "text": "Get the current market price for bitcoin.",
-            "color": "#F35A00"
+            "color": "#58416f"
         }
       ]
     };
@@ -165,17 +165,17 @@ app.post('/command', (req, res) => {
           attachments: [
             {
                 "text": "*BTC-USD:* \t$" + BTC_USD,
-                "color": "#F35A00",
+                "color": "#58416f",
     			      "mrkdwn_in": ["text"]
             },
     		    {
                 "text": "*ETH-USD:* \t$" + ETH_USD,
-                "color": "#F35A00",
+                "color": "#58416f",
     			      "mrkdwn_in": ["text"]
             },
     		    {
                 "text": "*LTC-USD:*  \t$" + LTC_USD,
-                "color": "#F35A00",
+                "color": "#58416f",
     			      "mrkdwn_in": ["text"]
             }
           ]
@@ -245,17 +245,17 @@ app.post('/command', (req, res) => {
           attachments: [
             {
                 "text": "*BTC-USD:* \t$" + BTC_USD,
-                "color": "#F35A00",
+                "color": "#58416f",
     			      "mrkdwn_in": ["text"]
             },
     		    {
                 "text": "*ETH-USD:* \t$" + ETH_USD,
-                "color": "#F35A00",
+                "color": "#58416f",
     			      "mrkdwn_in": ["text"]
             },
     		    {
                 "text": "*LTC-USD:*  \t$" + LTC_USD,
-                "color": "#F35A00",
+                "color": "#58416f",
     			      "mrkdwn_in": ["text"]
             }
           ]
@@ -325,17 +325,17 @@ app.post('/command', (req, res) => {
           attachments: [
             {
                 "text": "*BTC-USD:* \t$" + BTC_USD,
-                "color": "#F35A00",
+                "color": "#58416f",
     			      "mrkdwn_in": ["text"]
             },
     		    {
                 "text": "*ETH-USD:* \t$" + ETH_USD,
-                "color": "#F35A00",
+                "color": "#58416f",
     			      "mrkdwn_in": ["text"]
             },
     		    {
                 "text": "*LTC-USD:*  \t$" + LTC_USD,
-                "color": "#F35A00",
+                "color": "#58416f",
     			      "mrkdwn_in": ["text"]
             }
           ]
