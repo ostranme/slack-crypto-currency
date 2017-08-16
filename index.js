@@ -19,7 +19,7 @@ let coinbase_secret = 'bar';
 let client = new coinbase.Client({'apiKey': coinbase_key, 'apiSecret': coinbase_secret});
 
 // Create local server and listen on port => 3000
-const server = app.listen(3000, () => {
+const server = app.listen(process.env.PORT || 3000, () => {
   console.log('Express server listening on port %d in %s mode', server.address().port, app.settings.env);
 });
 
